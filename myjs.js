@@ -44,7 +44,7 @@ function subscribe() {
         
         if(winWidth >= 576) {
             imgDiv.setAttribute('style', "margin-top: 50px; margin-bottom:0px;");
-            cont.setAttribute('style', "width: 400px;  margin-top: 20px; ");   
+            cont.setAttribute('style', "width: 400px;  margin-top: 20px; margin-left: 400px;");   
             subBtn.setAttribute('style', "margin-top: 50px; margin-bottom: 50px;");
             mainCon.setAttribute('style', "flex-direction: column; margin-left: 2%; width: 500px; ");   
     }

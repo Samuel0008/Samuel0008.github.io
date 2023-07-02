@@ -1,5 +1,6 @@
 let winWidth = window.innerWidth;
 const img = document.querySelector('.myImg');
+const texts = document.querySelector('.texts'); // newly added
 const imgDiv = document.querySelector('.image');
 const firstSpan = document.querySelector('.first-span');
 const secondSpan = document.querySelector('.second-span');

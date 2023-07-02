@@ -46,7 +46,8 @@ function subscribe() {
             imgDiv.setAttribute('style', "margin-top: 50px; margin-bottom:0px;");
             cont.setAttribute('style', "width: 400px;  margin-top: 20px; margin-left: 400px;");   
             subBtn.setAttribute('style', "margin-top: 50px; margin-bottom: 50px;");
-            mainCon.setAttribute('style', "flex-direction: column; margin-left: 2%; width: 500px; ");   
+            mainCon.setAttribute('style', "flex-direction: column; margin-left: 2%; width: 500px; ");
+            texts.setAttribute('style', 'margin-left: 10px;');
     }
     } else {
         myInput.setAttribute('style', "color: hsl(4, 100%, 67%); border-color: hsl(4, 100%, 67%); background-color: hsl(4, 100%, 92%);");

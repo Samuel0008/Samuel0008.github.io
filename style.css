@@ -18,8 +18,7 @@ body {
 
 .image {
     margin-bottom: 20px;
-    margin-left: 0px; /* changed from 20px to 0px*/  
-    
+    margin-left: 0px; /* changed from 20px to 0px*/    
 }
 
 .texts {
@@ -92,22 +91,22 @@ h5 {
     }
     .cont{
         background-color: white;
-        margin-left: 50px;
+        margin-left: 250px;
         margin-top: 10px;
-        margin-right: 100px;
+        margin-right: 250px;
         margin-bottom: 20%;
         border-radius: 50px;
         
     }
     .main-container{
-        margin-left: 576px;
+        margin-left: 446px;
         margin-top: 10px;
         margin-right: 50px;
         display: flex;
         flex-direction: row-reverse;
     }
     .image {
-        margin: 2%;
+        margin: 10px;
         margin-left: 10px;
     }
     .texts {

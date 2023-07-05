@@ -10,8 +10,7 @@ html {
 body {
     box-sizing: border-box;
     color: hsl(235, 18%, 26%);
-}
-
+} 
 .main-container{
     max-width: 375px;
 }
@@ -48,7 +47,7 @@ h1 {
 
 h5 {
     padding-top: 10px;
-    margin-bottom: 5px;
+ 
 }
 
 input {
@@ -86,32 +85,29 @@ h5 {
     display: inline;
 }
 @media (min-width: 576px) {
-    body{
+    body {
         background-color: #0a1c25;
+        min-height: 100vh; 
+        display: grid;
+        place-items: center;
     }
     .cont{
         background-color: white;
-        margin-left: 250px;
-        margin-top: 250px;
-        margin-right: 250px;
-        margin-bottom: 20%;
-        border-radius: 50px;
-        
+        border-radius: 50px;    
     }
     .main-container{
-        margin-left: 446px;
-        margin-top: 10px;
-        margin-right: 50px;
+        margin-left: 30vw;
+        margin-top: 20vp;
+       /* margin-right: -50px; */
         display: flex;
         flex-direction: row-reverse;
     }
     .image {
-        margin: 10px;
-        margin-left: 10px;
+        margin: 25px;
     }
     .texts {
-        margin-top: 15%;
-        margin-left: 880px;
+        margin: 25px;
+        margin-top: 75px;
     }
 
 } 
